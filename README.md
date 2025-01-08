@@ -1,4 +1,4 @@
-# My-Portfolio-Website
+# Thomas Nguyen's portfolio website
 
 Name: Thomas Nguyen
 
