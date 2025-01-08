@@ -1,5 +1,7 @@
 # Thomas Nguyen's portfolio website
 
+https://thomasnguyen.netlify.app/
+
 ## Description
 
 This is a portfolio website created for me, Thomas Nguyen, to show off my projects aswell as give an overview on my education/experience. 
