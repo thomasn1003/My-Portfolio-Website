@@ -332,6 +332,7 @@ svg {
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
+  
 }
 
 .about__data{
@@ -344,7 +345,13 @@ svg {
 
 .about__image{
   justify-self: center;
+  margin-top: 2rem;
 }
+
+.about__button{
+  justify-self: center;
+}
+
 
 /*=============== SKILLS ===============*/
 .skills{
@@ -398,7 +405,7 @@ svg {
 }
 
 .work__card{
-  text-align: center;
+  
   background-color: var(--container-color);
   padding: 3rem 1.25rem;
   border: 2px solid var(--container-color);
@@ -414,9 +421,12 @@ svg {
 
 .work__title{
   font-size: var(--h2-font-size);
+  
   margin-bottom: 1.5rem;
 
 }
+
+
 
 /*=============== Projects ===============*/
 .projects{
@@ -475,9 +485,13 @@ svg {
 .projects__button i{
   font-size: 1.25rem;
 }
+
+/*=============== Contact ===============*/
+/*
 .contact{
   background-color: var(--container-color);
 }
+  */
 .contact__container{
   padding-top: 1rem;
 }

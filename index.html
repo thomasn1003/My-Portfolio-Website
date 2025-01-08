@@ -33,15 +33,17 @@
                     </li>
 
                     <li class="nav__item"> 
-                        <a href="#work" class="nav__link">Work Experience</a>
+                        <a href="#work" class="nav__link">Experience / Education</a>
                     </li>
                 
                     <li class="nav__item"> 
                         <a href="#projects" class="nav__link">Projects</a>
                     </li>
+                    <!--
                     <li class="nav__item"> 
                         <a href="#testimonials" class="nav__link">Testimonials</a>
                     </li>
+                    -->
                     <li class="nav__item"> 
                         <a href="#contact" class="nav__link">Contact</a>
                     </li>
@@ -91,14 +93,14 @@
                         <a href="https://www.linkedin.com/in/thomasn1003" target="_black" class="home__social-link">
                             <i class="ri-linkedin-box-line"></i>
                         </a>
-                        <a href="mailto:thomasn1003@gmail.com" target="_black" class="home__social-link">
+                        <a href="mailto:thomasbnguyen.work@gmail.com" target="_black" class="home__social-link">
                             <i class="ri-mail-line"></i>
                         </a>
                     </div>
                 </div>
 
                 <div class="home__image">
-                    <img class="home__img" id="imageBlob" width="640" height="600" href="./img/Selfie.jpg"></image>
+                    <img class="home__img" id="imageBlob" width="640" height="600" src="./img/selfie.jpg"></image>
                 </div>
             </div>
          </section>
@@ -123,8 +125,9 @@
                         in a visually appealing way. 
                         Take a look and see how I can help you achieve your goals.
                     </p>
-                    <a href="#contact" class="button">Contact Me</a>
+                    <a href="#contact" class="button about__button">Contact Me</a>
                     <div class="about__image">
+                    <img class="about__img" id="imageBlob" width="640" height="600" src="./img/Aboutme.jpg"></image>
                         
                     </div>
                 </div>
@@ -170,37 +173,42 @@
          <!--==================== WORK EXPERIENCE ====================-->
          <section class="work experience section" id="work">
             <h3 class="section__subtitle">
-                Work <span>Experience</span>
+                Experience / <span>Education</span>
             </h3>
-            <h2 class="section__title">Past & Current Work</h2>
+            <h2 class="section__title">Past & Current Career Work</h2>
 
             <div class="work__container container grid">
                 <article class="work__card">
                     
                     <h2 class="work__title">Research Project</h2>
                     <p class="work__description">
-                        ASSURE-US Summer Research
-                        ● Learned and Reviewed C++ and advanced math equations
-                        ● Created a C++ project that applied pairs trading strategies to a pair of stocks
-
+                        
+                        <ul>
+                            <li>ASSURE-US Summer Research</li>
+                            <li>● Learned and Reviewed C++ and advanced math equations</li>
+                            <li>● Implemented pairs trading strategies using C++</li>
+                        </ul>
                     </p>
                 </article>
 
                 <article class="work__card">
                     <h2 class="work__title">Data Entry</h2>
                     <p class="work__description">
-                        Icera LLC
-                        ● Added, verified and edited billing data for Icera LLC
-                        ● Required quick and accurate typing skills
-                        
+                        <ul>
+                            <li>Icera LLC</li>
+                            <li>● Added, verified and edited billing data for Icera LLC</li>
+                        </ul>
                     </p>
                 </article>
-
+                
                 <article class="work__card">
-                    <h2 class="work__title"></h2>
+                    <h2 class="work__title">Cal State University, Fullerton </h2>
                     <p class="work__description">
-
-                        
+                        <ul>
+                            <li>Bachelor's in Computer Science</li>
+                            <li>● Expected Graduation: May 2026</li>
+                        </ul>
+ 
                     </p>
                 </article>
             </div>
@@ -251,6 +259,7 @@
 
                     </div>
                </article>
+               <!--
                <article class="projects__card">
                     <img src="img/project-img-1.png" alt="projects image" class="projects__img">
                     <div class="projects__modal">
@@ -283,6 +292,7 @@
 
                     </div>
                 </article>
+                -->
         
 
             </div>
@@ -290,7 +300,8 @@
 
          </section>
 
-        <!--==================== Testimonials ====================-->
+        <!--
+        ==================== Testimonials ====================
         <section class="testimonials section" id="testimonials">
             <h3 class="section__subtitle">
                 Testimonial <span>Section</span>
@@ -322,7 +333,7 @@
                     </p>
                 </article>
             </div>
-            
+        -->
 
         </section>
 
@@ -370,8 +381,16 @@
       <script src=""></script>
 
       <!--=============== EMAIL JS ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "6o2nO3AVG6e1ZQDmx",
+            });
+        })();
+    </script>
       <!--=============== MAIN JS ===============-->
       <script src="main.js"></script>
    </body>
